@@ -1,0 +1,34 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+
+  background-color: grey;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px 25px;
+  padding: 10px 15px;
+  border: 5px solid white;
+}
+
+.value,
+.label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.value {
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.label {
+  text-transform: uppercase;
+}
